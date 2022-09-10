@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "todo app backend",
+  "scripts": {
+      "project": "python3 -m django startproject backend",
+      "app": "python3 manage.py startapp todo",
+      "api": "python3 manage.py startapp api",
+      "start": "python3 manage.py runserver",
+      "createuser": "python3 manage.py createsuperuser",
+      "migra": "python3 manage.py makemigrations && python3 manage.py migrate"
+  },
+  "main": "index.js",
+  "author": "moisesrp",
+  "license": "MIT"
+}
